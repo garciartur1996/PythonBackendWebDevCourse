@@ -50,3 +50,11 @@ print(bin(334))
 from math import *
 
 print(sqrt(100))
+
+## Getting users input
+
+name_user = input('Input your Name: ')
+age_user = int(input('Input your age: '))
+print("Your name is:",name_user, "and your age is:",age_user)
+
+
