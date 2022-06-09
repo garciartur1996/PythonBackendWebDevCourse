@@ -1,6 +1,10 @@
+from audioop import tomono
+
+
 print('Hello world noch einmal, my age is', 26) 
 print("Welcome again")
 
+'''
 ## Strings
 
 name = "TIM"
@@ -64,4 +68,29 @@ print("Your sentence is:", sentence_user)
 word_to_replace = input("Enter the word of the sentence that you want to replace: ")
 word_to_replace_with = input("Enter the word to replace it with: ")
 print(sentence_user.replace(word_to_replace,word_to_replace_with))
+'''
+
+## Lists in python
+
+list_countries = ['UK',2,'Nigeria','Australia','Mexico']
+print(list_countries)
+#print(list_countries[1])
+#print(list_countries[1][0])
+print(list_countries[2:])
+print(list_countries[1:4])
+print(type(list_countries))
+print(type(list_countries[1]))
+name = 'tom'
+print(type(name))
+list_countries[0] = True
+print(list_countries)
+print(list_countries[-1])
+print(list_countries[-2])
+print(len(list_countries))
+#print(len(list_countries[0]))
+print(type(list_countries[0]))
+
+countries = list(('UK',2,'Nigeria','Australia','Mexico')) ##List constructor, another way to declare a list using "list(())"
+print(countries)
+print(type(countries))
 
