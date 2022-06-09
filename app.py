@@ -57,4 +57,11 @@ name_user = input('Input your Name: ')
 age_user = int(input('Input your age: '))
 print("Your name is:",name_user, "and your age is:",age_user)
 
+## Python exercise for word replacement
+
+sentence_user = input("Enter your sentence: ")
+print("Your sentence is:", sentence_user)
+word_to_replace = input("Enter the word of the sentence that you want to replace: ")
+word_to_replace_with = input("Enter the word to replace it with: ")
+print(sentence_user.replace(word_to_replace,word_to_replace_with))
 
